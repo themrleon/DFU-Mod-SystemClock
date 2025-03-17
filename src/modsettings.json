@@ -1,0 +1,67 @@
+{
+  "Version": "1.00",
+  "Sections": [
+    {
+      "Name": "Settings",
+      "IsAdvanced": false,
+      "Keys": [
+        {
+          "Value": "HH:mm:ss",
+          "Name": "Format",
+          "Description": "Output format (check mod page for details)",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.TextKey"
+        },
+        {
+          "Min": -1000,
+          "Max": 1000,
+          "Value": -1,
+          "Name": "RenderOrder",
+          "Description": "Render order (negative values = above other UI elements, positive = under)",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 100,
+          "Name": "HorizontalPositionPercent",
+          "Description": "Screen horizontal position (0 = left, 100 = right)",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 0,
+          "Max": 100,
+          "Value": 0,
+          "Name": "VerticalPositionPercent",
+          "Description": "Screen vertical position (0 = top, 100 = bottom)",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Min": 1,
+          "Max": 100,
+          "Value": 20,
+          "Name": "Size",
+          "Description": "Font size",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+        },
+        {
+          "Value": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "Name": "Color",
+          "Description": "Font color",
+          "$version": "v1",
+          "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.ColorKey"
+        }
+      ],
+      "$version": "v1"
+    }
+  ]
+}

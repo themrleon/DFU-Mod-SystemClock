@@ -1,0 +1,12 @@
+{
+    "ModTitle": "SystemClock",
+    "ModVersion": "1.0",
+    "ModAuthor": "themrleon",
+    "DFUnity_Version": "1.1.1",
+    "ModDescription": "Show system time on screen",
+    "GUID": "0b4b169a-1508-46c8-917e-454ed297a6f3",
+    "Files": [
+        "Assets/Game/Mods/SystemClock/modsettings.json",
+        "Assets/Game/Mods/SystemClock/SystemClock.cs"
+    ]
+}
